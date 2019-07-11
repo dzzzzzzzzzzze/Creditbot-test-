@@ -18,17 +18,18 @@ client.on('ready', () => {
 
 client.on('message',message => {
 if(message.content === prefix+'daily')
-message.channel.send('$daily')
+message.channel.send('t!daily')
 }
 });          
 client.on('message',message => {
 if(message.content === prefix+'credits')
-message.channel.send('$credits')
+message.channel.send('t!credits')
 }
 });          
 client.on('message',message => {
 if(message.content === prefix+'rep')
-message.channel.send('$rep')
+        message.channel.send("t!rep "+"<@" + myid + ">")
+
 }
 });          
 
