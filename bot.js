@@ -17,17 +17,17 @@ client.on('ready', () => {
 });
 
 client.on('message',message => {
-if(message.content === prefix+'$daily')
+if(message.content === prefix+'daily')
 message.channel.send('$daily')
 }
 });          
 client.on('message',message => {
-if(message.content === prefix+'$credits')
+if(message.content === prefix+'credits')
 message.channel.send('$credits')
 }
 });          
 client.on('message',message => {
-if(message.content === prefix+'$rep')
+if(message.content === prefix+'rep')
 message.channel.send('$rep')
 }
 });          
