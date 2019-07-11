@@ -16,6 +16,21 @@ client.on('ready', () => {
    console.log(`----------------`);
 });
 
+client.on('message',message => {
+if(message.content === prefix+'#daily')
+message.channel.send('$daily')
+}
+});          
+client.on('message',message => {
+if(message.content === prefix+'#credits')
+message.channel.send('$credits')
+}
+});          
+client.on('message',message => {
+if(message.content === prefix+'#rep')
+message.channel.send('$rep')
+}
+});          
 
 client.on('message',message => {
 if(message.content === prefix+'#daily')
